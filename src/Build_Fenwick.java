@@ -43,7 +43,7 @@ public class Build_Fenwick {
         boolean success = false;
         while (!success) {
             try {
-                System.out.print("Введите размер массива и далее, через enter, элементы массива: ");
+                System.out.print("Введите размер массива и далее элементы массива: ");
                 int n = scanner.nextInt();
                 if (n <= 0) {
                     System.out.println("Введите верный размер!");
